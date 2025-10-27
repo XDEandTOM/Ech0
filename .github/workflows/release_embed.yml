@@ -1,6 +1,7 @@
 name: Release with Embedded Frontend
 
 on:
+   workflow_dispatch:
   push:
     tags:
       - "v*" # 触发条件：打 Tag，比如 v1.0.0
